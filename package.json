@@ -1,12 +1,25 @@
 {
   "name": "node_x0",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Just for fun",
+  "main": "servernom.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Kh@lil",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vvoox/node_x0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vvoox/node_x0/issues"
+  },
+  "homepage": "https://github.com/Vvoox/node_x0#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
